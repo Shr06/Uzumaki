@@ -48,7 +48,8 @@ int main()
  else
  {
    printf("INVALID OPERATOR");
+   return 0;
  }
- printf("The result of %d %c %d",num1,op,num2);
+ printf("The result of %d %c %d is %f",num1,op,num2,result);
  return 0;  
 }
